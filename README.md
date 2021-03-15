@@ -39,9 +39,6 @@
 
 Repositório para armazenar os códigos da aula de fundamentos da programação do curso Análise e Desenvolvimento de Sistemas do primeiro período da UTFPR
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
 Made with :heart: by <a href="https://github.com/minozzzi" target="_blank">Guilherme Minozzi</a>
 
 &#xa0;
