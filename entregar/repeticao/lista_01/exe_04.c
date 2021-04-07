@@ -10,7 +10,7 @@
 int main(void) {
 
     setlocale(LC_ALL, "");
-    int i = 1, contPos = 1;
+    int i = 1;
     float value, soma10Primeiros = 0, soma11Ate20 = 0, soma21Ate30 = 0, somaGeral = 0;
 
     for (i; i <= 30; i++) {
@@ -18,16 +18,14 @@ int main(void) {
         printf("Informe um número qualquer: ");
         scanf("%f", &value);
 
-        if (contPos >= 1 && contPos <= 10) {
+        if (i >= 1 && i <= 10) {
             soma10Primeiros += value;
-        } else if (contPos >= 11 && contPos <= 20) {
+        } else if (i >= 11 && i <= 20) {
             soma11Ate20 += value;
-        } else if (contPos >= 21 && contPos <= 30) {
+        } else if (i >= 21 && i <= 30) {
             soma21Ate30 += value;
         }
         somaGeral += value;
-
-        contPos++;
     }
 
     printf("\nSoma dos 10 primeiros números: %.2f", soma10Primeiros);
