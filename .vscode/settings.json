@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json",
+        "*.tsx": "typescriptreact",
+        "stdio.h": "c",
+        "stdio_ext.h": "c",
+        "math.h": "c"
     }
 }
